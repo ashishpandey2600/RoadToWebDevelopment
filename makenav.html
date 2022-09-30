@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+        <style>
+
+            .hoverable{
+                position: relative;
+                border: 5px solid brown;
+                display: inline-block;
+                width: 10%;
+            }
+            .material{
+                position: absolute;
+                border: 3px solid green;
+                display: inline-block;
+                top : 25px;
+                opacity: 0;
+                transition:opacity 2s;
+            }
+            .hoverable:hover .material{
+                opacity: 1;
+            }
+            
+            </style>
+</head>
+<body>
+    <nav>
+        
+      </nav>
+      <div class = "hoverable">
+        <a href="/html/">HTML</a> 
+        <span class = "material">This is all about HTML </span>
+        </div>
+        <div class = "hoverable"> 
+            <a href="/css/">CSS</a> |
+            <span class = "material">This is all about CSS </span>
+            </div>
+            <div class = "hoverable">
+                <a href="/python/">Python</a>
+                <span class = "material">This is all about PYTHON </span>
+                </div>
+                <div class = "hoverable">
+                    <a href="/python/">C++</a>
+                    <span class = "material">This is all about C++ </span>
+                    </div>  
+</body>
+</html>

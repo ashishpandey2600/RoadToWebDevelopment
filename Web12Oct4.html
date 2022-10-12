@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function outer(){
+            var a=10; //outer variable
+
+            function inner(){
+                var b= 20;//insser variable
+                alert(a+b);
+            }
+            return inner;//returns a funtion
+            //function are treated as object
+            var x=outer();
+            console.log(x());
+        }
+        //Self-invoking function
+        (function (){
+            alert("3");
+        
+        })();
+    </script>
+</body>
+</html>

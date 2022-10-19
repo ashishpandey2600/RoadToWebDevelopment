@@ -10,18 +10,11 @@
     <!---Scripting language is primerily used to add etc. functionality to power point presentation and browser-->
     <!--Call back Function-->
     <script>
-        function fun(x,callback){
-        callback(x);
-    }//callback is reference of function
-
-    function temp(x){
-        alert(x);
-    }
-
-    fun(3,temp); 
-    //why they are called callback?
-    //They are call when other function find it appropriate to call.
-    
+ alert("1");
+ alert("2");
+ setTimeout(function(){alert("3");},1000);
+ alert("4");
+ alert("5");
     </script>
 </body>
 </html>

@@ -8,12 +8,12 @@
 </head>
 <body>
     <h1 id="redirect"></h1>
-   //Using File Protocol 
+
 
    <script>
     var x=5;
 
-    setInterval(function(){if(x>0)document.getelementById("redirect")},1000);
+    setInterval(function(){if(x-- >0){document.getelementById("Redirect").innerHTML="You will be directed in "+x+" seconds ";} else location.assign("https://www.juet.ac.in/")},1000);
    </script>
 </body>
 </html>

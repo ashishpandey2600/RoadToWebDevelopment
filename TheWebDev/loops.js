@@ -29,3 +29,29 @@ while(x--)
 
 }
 
+//for...in
+
+let animal = {
+name : "Zebra",
+leg : 4
+};
+
+for(let key in animal){
+    console.log(key);//console.log(keey,animal(key));
+}
+
+//Arrays
+let names = ["Rahul","Neha","Ashish","Rishabh"];
+for(let index in names)
+{
+    console.log(index);
+}
+
+//For of loop
+
+for(let name of names){
+    console.log(name);
+}
+
+
+

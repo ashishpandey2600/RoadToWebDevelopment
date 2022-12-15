@@ -66,3 +66,6 @@ console.log(cours3.constructor)
 //     console.log('30 users are enrolled');
 
 // }
+
+const course3 = "jewfn"
+

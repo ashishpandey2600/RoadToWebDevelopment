@@ -123,4 +123,5 @@ for(let key of Object.keys(course)){
     course_1[key] = course[key];
     console.log(key,course_1[key]);
 }//output ["title","enroll"]
+//
 

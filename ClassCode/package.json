@@ -1,0 +1,19 @@
+{
+  "name": "ashish",
+  "version": "1.0.0",
+  "description": "Its an amaxing package",
+  "main": "nodework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/ashishpandey2600/RoadToWebDevelopment.git"
+  },
+  "author": "Ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishpandey2600/RoadToWebDevelopment/issues"
+  },
+  "homepage": "https://github.com/ashishpandey2600/RoadToWebDevelopment#readme"
+}
